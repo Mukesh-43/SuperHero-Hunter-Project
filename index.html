@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" id="root">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Superhero Hunter</title>
+
+     <link rel="stylesheet" href="./css/styles.css">
+
+     </head>
+
+<body>
+
+     
+     <nav class="flex-row navbar">
+          <div class="flex-row marvel-Logo">
+               <img class="logo" src="./images/Marvel logo.png">
+          </div>
+          <!--Favourites Button -->
+          <div class="flex-row">
+               <a class="flex-row link-to-different-page" href="./favorites.html">
+                    <button class="btn fav-btn">Favourites</button>
+               </a>
+          </div>
+     </nav>
+
+     <!-- Search Bar and Search Results -->
+     <div class="flex-col searchBar-items">
+          <div class="search-bar-container" class="flex-row">
+               <div class="search-icon-container"><img src="./images/SearchIcon.png"></div>
+               <input id="search-bar" type="text" autocomplete="off" placeholder="Search for Superheros">
+          </div>
+          <ul class="flex-col" id="search-results">
+              
+          </ul>
+
+     </div>
+     <div id="herosList">
+               
+     </div>
+
+     <!-- Notifications -->
+     <span data-visiblity="hide" class="add-fav">Added to Favourites</span>
+     <span data-visiblity="hide" class="remove-fav">Removed from Favourites</span>
+
+     <script src="./js/script.js"></script>
+
+</body>
+
+</html>

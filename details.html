@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" id="root" color-scheme="light">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title id="page-title">Superhero Hunter</title>
+
+
+     <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="./css/details.css">
+</head>
+
+<body>
+
+     <nav class="flex-row navbar">
+          <div class="flex-row">
+               <img class="logo" src="./images/Marvel logo.png">
+          </div>
+          
+          <div class="flex-row fav-Btn">
+               <a class="flex-row link-to-different-page" href="./favorites.html">
+                    <button class="btn fav-btn">Favourites</button>
+               </a>
+               <a class="flex-row link-to-different-page" href="./index.html">
+                    <button class="btn fav-btn">Home</button>
+               </a>
+          </div>
+     </nav>
+
+     <div class="flex-row info">
+          <section class="flex-col" id="info-container">
+          </section>
+     </div>
+
+     
+     <!-- Notification -->
+     <span data-visiblity="hide" class="add-fav">Added to Favourites</span>
+     <span data-visiblity="hide" class="remove-fav">Removed from Favourites</span>
+
+     <script defer src="./js/details.js"></script>
+</body>
+
+</html>

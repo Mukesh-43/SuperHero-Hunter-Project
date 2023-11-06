@@ -3,6 +3,7 @@
 
 It is a Super Hero search project and it is done by using Marvel api, HTML, CSS and Javascript. 
 
+## Hosted Link : https://mukesh-43.github.io/SuperHero-Hunter-project/
 
 ## Home Page
 ### Navbar - It has Marvel Logo and a Favourites button
